@@ -37,12 +37,12 @@ if( !isset( $_COOKIE[ 'security' ] ) || !in_array( $_COOKIE[ 'security' ], $secu
 		dvwaPhpIdsEnabledSet( false );
 }
 
-// DVWA version
+// VWA version
 function dvwaVersionGet() {
 	return '1.10 *Development*';
 }
 
-// DVWA release date
+// VWA release date
 function dvwaReleaseDateGet() {
 	return '2015-10-08';
 }

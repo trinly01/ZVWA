@@ -19,7 +19,7 @@ DVWA十分易受攻击！  **不要将其上传到您的云服务器的公共 ht
 
 ### 免责声明
 
-我们不对任何人使用此应用程序 (DVWA) 的方式负责。 我们已经明确了应用程序的目的，不应被恶意使用。 我们已发出警告并采取措施防止用户将 DVWA 安装到实际生产运行的 Web 服务器上。 如果您的 Web 服务器因安装 DVWA 而受到损害，这不是我们的责任，而是上传和安装它的人的责任。
+我们不对任何人使用此应用程序 (DVWA) 的方式负责。 我们已经明确了应用程序的目的，不应被恶意使用。 我们已发出警告并采取措施防止用户将 VWA 安装到实际生产运行的 Web 服务器上。 如果您的 Web 服务器因安装 VWA 而受到损害，这不是我们的责任，而是上传和安装它的人的责任。
 
 - - -
 
@@ -67,7 +67,7 @@ git clone https://github.com/trinly01/ZVWA.git
 
 ### Windows + XAMPP
 
-如果您还没有设置 Web 服务器，安装 DVWA 的最简单方法是下载并安装 [XAMPP](https://www.apachefriends.org/en/xampp.html)。
+如果您还没有设置 Web 服务器，安装 VWA 的最简单方法是下载并安装 [XAMPP](https://www.apachefriends.org/en/xampp.html)。
 
 XAMPP 是一个非常易于安装的 Apache 发行版，适用于 Linux、Solaris、Windows 和 Mac OS X。该软件包包括 Apache Web 服务器、MySQL、PHP、Perl、一个 FTP 服务器和 phpMyAdmin。
 
@@ -143,7 +143,7 @@ _...很容易被暴力破解；)_
 
 登录 URL：http://127.0.0.1/login.php
 
-_注意：如果您将 DVWA 安装到不同的目录中，上述登录 URL 将有所不同。_
+_注意：如果您将 VWA 安装到不同的目录中，上述登录 URL 将有所不同。_
 
 - - -
 
@@ -182,7 +182,7 @@ SQL: Access denied for user 'dvwa'@'localhost' to database 'notdvwa'
 如果它符合您的预期，接下来要做的是检查，您是否可以使用命令行，以您配置的用户身份登录数据库。 假设你的数据库用户是 `dvwa`，密码是 `p@ssw0rd`，运行以下命令： 
 
 ```
-mysql -u dvwa -pp@ssw0rd -D dvwa
+mysql -u VWA -pp@ssw0rd -D dvwa
 ```
 
 *注意：-p后没有空格*
@@ -250,7 +250,7 @@ Database Error #2054: The server requested authentication method unknown to the 
     +-----------+------------------+-----------------------+
     | Host      | User             | plugin                |
     +-----------+------------------+-----------------------+
-    | localhost | dvwa             | caching_sha2_password |
+    | localhost | VWA             | caching_sha2_password |
     +-----------+------------------+-----------------------+
     1 rows in set (0.00 sec)
     ```
@@ -265,7 +265,7 @@ Database Error #2054: The server requested authentication method unknown to the 
     +-----------+------+-----------------------+
     | Host      | User | plugin                |
     +-----------+------+-----------------------+
-    | localhost | dvwa | mysql_native_password |
+    | localhost | VWA | mysql_native_password |
     +-----------+------+-----------------------+
     1 row in set (0.00 sec)
     ```
@@ -355,4 +355,4 @@ setsebool -P httpd_can_network_connect_db 1
 
 项目主页: <https://github.com/trinly01/ZVWA>
 
-*Created by the DVWA team*
+*Created by the VWA team*

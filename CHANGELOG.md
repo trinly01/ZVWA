@@ -12,7 +12,7 @@ v1.9 (2015-10-05)
 
 + Added a dedicated objective (or "flag") for file include. (@g0tmi1k)
 + Added a warning to any module that requires a certain configuration. (@g0tmi1k)
-+ Added comments to all source code that would be visible via DVWA modules. (@g0tmi1k)
++ Added comments to all source code that would be visible via VWA modules. (@g0tmi1k)
 + Added CSRF token to pre-auth forms (login/setup/security pages). (@g0tmi1k + @Shinkurt)
 + Added HttpOnly cookie flag on impossible levels. (@g0tmi1k)
 + Added more detail to the documentation. (@g0tmi1k)
@@ -104,7 +104,7 @@ v1.0.4 (2009-06-29)
 + Fixed the exec.php UTF-8 output. 16/06/2009
 + Moved Help/View source buttons to footer. 12/06/2009
 + Fixed phpInfo bug. 12/06/2009
-+ Made dvwa IE friendly. 11/06/2009
++ Made VWA IE friendly. 11/06/2009
 + Fixed html bugs. 11/06/2009
 + Added more info to about page. 03/06/2009
 + Added pictures for the users. 03/06/2009
@@ -159,4 +159,4 @@ Links
 
 + Homepage: https://zyberlab.com
 
-_Created by the DVWA team._
+_Created by the VWA team._

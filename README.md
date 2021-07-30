@@ -2,7 +2,7 @@
 
 ZyberLab Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
 
-The aim of DVWA is to **practice some of the most common web vulnerabilities**, with **various levels of difficulty**, with a simple straightforward interface.
+The aim of VWA is to **practice some of the most common web vulnerabilities**, with **various levels of difficulty**, with a simple straightforward interface.
 Please note, there are **both documented and undocumented vulnerabilities** with this software. This is intentional. You are encouraged to try and discover as many issues as possible.
 - - -
 
@@ -12,7 +12,7 @@ ZyberLab Vulnerable Web Application is ZyberLab vulnerable! **Do not upload it t
 
 ### Disclaimer
 
-We do not take responsibility for the way in which any one uses this application (DVWA). We have made the purposes of the application clear and it should not be used maliciously. We have given warnings and taken measures to prevent users from installing DVWA on to live web servers. If your web server is compromised via an installation of DVWA, it is not our responsibility, it is the responsibility of the person/s who uploaded and installed it.
+We do not take responsibility for the way in which any one uses this application (DVWA). We have made the purposes of the application clear and it should not be used maliciously. We have given warnings and taken measures to prevent users from installing VWA on to live web servers. If your web server is compromised via an installation of DVWA, it is not our responsibility, it is the responsibility of the person/s who uploaded and installed it.
 
 - - -
 
@@ -47,7 +47,7 @@ If you would like to contribute a translation, please submit a PR. Note though, 
 
 ## Download
 
-While there are various versions of DVWA around, the only supported version is the latest source from the official GitHub repository. You can either clone it from the repo:
+While there are various versions of VWA around, the only supported version is the latest source from the official GitHub repository. You can either clone it from the repo:
 
 ```
 git clone https://github.com/trinly01/ZVWA.git
@@ -67,7 +67,7 @@ Or [download a ZIP of the files](https://github.com/trinly01/ZVWA/archive/master
 
 ### Windows + XAMPP
 
-The easiest way to install DVWA is to download and install [XAMPP](https://www.apachefriends.org/en/xampp.html) if you do not already have a web server setup.
+The easiest way to install VWA is to download and install [XAMPP](https://www.apachefriends.org/en/xampp.html) if you do not already have a web server setup.
 
 XAMPP is a very easy to install Apache Distribution for Linux, Solaris, Windows and Mac OS X. The package includes the Apache web server, MySQL, PHP, Perl, a FTP server and phpMyAdmin.
 
@@ -145,7 +145,7 @@ _...can easily be brute forced ;)_
 
 Login URL: http://127.0.0.1/login.php
 
-_Note: This will be different if you installed DVWA into a different directory._
+_Note: This will be different if you installed VWA into a different directory._
 
 - - -
 
@@ -185,7 +185,7 @@ The first thing to do is to double check what you think you put in the config fi
 If it matches what you expect, the next thing to do is to check you can log in as the user on the command line. Assuming you have a database user of `dvwa` and a password of `p@ssw0rd`, run the following command:
 
 ```
-mysql -u dvwa -pp@ssw0rd -D dvwa
+mysql -u VWA -pp@ssw0rd -D dvwa
 ```
 
 *Note: There is no space after the -p*
@@ -255,7 +255,7 @@ Alternatively, follow these steps:
     +-----------+------------------+-----------------------+
     | Host      | User             | plugin                |
     +-----------+------------------+-----------------------+
-    | localhost | dvwa             | caching_sha2_password |
+    | localhost | VWA             | caching_sha2_password |
     +-----------+------------------+-----------------------+
     1 rows in set (0.00 sec)
     ```
@@ -273,7 +273,7 @@ Alternatively, follow these steps:
     +-----------+------+-----------------------+
     | Host      | User | plugin                |
     +-----------+------+-----------------------+
-    | localhost | dvwa | mysql_native_password |
+    | localhost | VWA | mysql_native_password |
     +-----------+------+-----------------------+
     1 row in set (0.00 sec)
     ```
@@ -302,7 +302,7 @@ For more information, see:
 
 ### SQL Injection won't work on PHP v5.2.6.
 
-PHP 5.x reached end of life in January 2019 so we would recommend running DVWA with a current 7.x version, if you must use 5.x...
+PHP 5.x reached end of life in January 2019 so we would recommend running VWA with a current 7.x version, if you must use 5.x...
 
 If you are using PHP v5.2.6 or above, you will need to do the following in order for SQL injection and other vulnerabilities to work.
 
@@ -330,7 +330,7 @@ With:
 
 ### Command Injection won't work
 
-Apache may not have high enough privileges to run commands on the web server. If you are running DVWA under Linux make sure you are logged in as root. Under Windows log in as Administrator.
+Apache may not have high enough privileges to run commands on the web server. If you are running VWA under Linux make sure you are logged in as root. Under Windows log in as Administrator.
 
 ### Why can't the database connect on CentOS?
 
@@ -363,4 +363,4 @@ Homepage: <https://zyberlab.com/>
 
 Project Home: <https://github.com/trinly01/ZVWA>
 
-*Created by the DVWA team*
+*Created by the VWA team*
