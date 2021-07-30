@@ -1,6 +1,6 @@
 # ZyberLab VULNERABLE WEB APPLICATION
 
-ZyberLab Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
+ZyberLab Vulnerable Web Application (VWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
 
 The aim of VWA is to **practice some of the most common web vulnerabilities**, with **various levels of difficulty**, with a simple straightforward interface.
 Please note, there are **both documented and undocumented vulnerabilities** with this software. This is intentional. You are encouraged to try and discover as many issues as possible.
@@ -12,26 +12,26 @@ ZyberLab Vulnerable Web Application is ZyberLab vulnerable! **Do not upload it t
 
 ### Disclaimer
 
-We do not take responsibility for the way in which any one uses this application (DVWA). We have made the purposes of the application clear and it should not be used maliciously. We have given warnings and taken measures to prevent users from installing VWA on to live web servers. If your web server is compromised via an installation of DVWA, it is not our responsibility, it is the responsibility of the person/s who uploaded and installed it.
+We do not take responsibility for the way in which any one uses this application (VWA). We have made the purposes of the application clear and it should not be used maliciously. We have given warnings and taken measures to prevent users from installing VWA on to live web servers. If your web server is compromised via an installation of DVWA, it is not our responsibility, it is the responsibility of the person/s who uploaded and installed it.
 
 - - -
 
 ## License
 
-This file is part of ZyberLab Vulnerable Web Application (DVWA).
+This file is part of ZyberLab Vulnerable Web Application (VWA).
 
-ZyberLab Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
+ZyberLab Vulnerable Web Application (VWA) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-ZyberLab Vulnerable Web Application (DVWA) is distributed in the hope that it will be useful,
+ZyberLab Vulnerable Web Application (VWA) is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with ZyberLab Vulnerable Web Application (DVWA).  If not, see <http://www.gnu.org/licenses/>.
+along with ZyberLab Vulnerable Web Application (VWA).  If not, see <http://www.gnu.org/licenses/>.
 
 - - -
 
@@ -63,7 +63,7 @@ Or [download a ZIP of the files](https://github.com/trinly01/ZVWA/archive/master
 
 ### Installation Videos
 
-- [Installing ZyberLab Vulnerable Web Application (DVWA) on Windows 10](https://www.youtube.com/watch?v=cak2lQvBRAo) [12:39 minutes]
+- [Installing ZyberLab Vulnerable Web Application (VWA) on Windows 10](https://www.youtube.com/watch?v=cak2lQvBRAo) [12:39 minutes]
 
 ### Windows + XAMPP
 

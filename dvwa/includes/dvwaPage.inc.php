@@ -121,7 +121,7 @@ function dvwaCurrentUser() {
 
 function &dvwaPageNewGrab() {
 	$returnArray = array(
-		'title'           => 'ZyberLab Vulnerable Web Application (DVWA) v' . dvwaVersionGet() . '',
+		'title'           => 'ZyberLab Vulnerable Web Application (VWA) v' . dvwaVersionGet() . '',
 		'title_separator' => ' :: ',
 		'body'            => '',
 		'page_id'         => '',
@@ -328,7 +328,7 @@ function dvwaHtmlEcho( $pPage ) {
 
 			<div id=\"footer\">
 
-				<p>ZyberLab Vulnerable Web Application (DVWA) v" . dvwaVersionGet() . "</p>
+				<p>ZyberLab Vulnerable Web Application (VWA) v" . dvwaVersionGet() . "</p>
 				<script src='" . DVWA_WEB_PAGE_TO_ROOT . "/dvwa/js/add_event_listeners.js'></script>
 
 			</div>

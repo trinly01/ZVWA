@@ -12,7 +12,7 @@ $page[ 'page_id' ] = 'about';
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
 	<h2>About</h2>
-	<p>ZyberLab Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goals are to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and aid teachers/students to teach/learn web application security in a class room environment</p>
+	<p>ZyberLab Vulnerable Web Application (VWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goals are to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and aid teachers/students to teach/learn web application security in a class room environment</p>
 	<p>Pre-August 2020, All material is copyright 2008-2015 RandomStorm & Ryan Dewhurst.</p>
 	<p>Ongoing, All material is copyright Robin Wood and probably Ryan Dewhurst.</p>
 
@@ -44,7 +44,7 @@ $page[ 'body' ] .= "
 	</ul>
 
 	<h2>License</h2>
-	<p>ZyberLab Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
+	<p>ZyberLab Vulnerable Web Application (VWA) is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
 	(at your option) any later version.</p>
