@@ -351,7 +351,7 @@ setsebool -P httpd_can_network_connect_db 1
 
 ## 链接
 
-主页: <http://www.dvwa.co.uk/>
+主页: <https://zyberlab.com/>
 
 项目主页: <https://github.com/trinly01/ZVWA>
 

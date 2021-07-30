@@ -157,6 +157,6 @@ v1.0 (2009-05-20)
 Links
 =====
 
-+ Homepage: http://www.dvwa.co.uk
++ Homepage: https://zyberlab.com
 
 _Created by the DVWA team._

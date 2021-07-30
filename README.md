@@ -359,7 +359,7 @@ If raising a ticket, please submit at least the following information:
 
 ## Links
 
-Homepage: <http://www.dvwa.co.uk/>
+Homepage: <https://zyberlab.com/>
 
 Project Home: <https://github.com/trinly01/ZVWA>
 

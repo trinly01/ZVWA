@@ -18,7 +18,7 @@ $page[ 'body' ] .= "
 
 	<h2>Links</h2>
 	<ul>
-		<li>Homepage: " . dvwaExternalLinkUrlGet( 'http://www.dvwa.co.uk/' ) . "</li>
+		<li>Homepage: " . dvwaExternalLinkUrlGet( 'https://zyberlab.com/' ) . "</li>
 		<li>Project Home: " . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA' ) . "</li>
 		<li>Bug Tracker: " . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA/issues' ) . "</li>
 		<li>Wiki: " . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA/wiki' ) . "</li>
