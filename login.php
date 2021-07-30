@@ -66,7 +66,7 @@ echo "<!DOCTYPE html>
 
 		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
 
-		<title>Login :: Damn Vulnerable Web Application (DVWA) v" . dvwaVersionGet() . "</title>
+		<title>Login :: ZyberLab Vulnerable Web Application (DVWA) v" . dvwaVersionGet() . "</title>
 
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/css/login.css\" />
 
@@ -80,7 +80,7 @@ echo "<!DOCTYPE html>
 
 	<br />
 
-	<p><img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/login_logo.png\" /></p>
+	<p><img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/login_logo.png\" style=\"width: 300px;\" /></p>
 
 	<br />
 
@@ -125,7 +125,7 @@ echo "<!DOCTYPE html>
 
 	<div id=\"footer\">
 
-	<p>" . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/', 'Damn Vulnerable Web Application (DVWA)' ) . "</p>
+	<p>" . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA/', 'ZyberLab Vulnerable Web Application (DVWA)' ) . "</p>
 
 	</div> <!--<div id=\"footer\"> -->
 

@@ -121,7 +121,7 @@ function dvwaCurrentUser() {
 
 function &dvwaPageNewGrab() {
 	$returnArray = array(
-		'title'           => 'Damn Vulnerable Web Application (DVWA) v' . dvwaVersionGet() . '',
+		'title'           => 'ZyberLab Vulnerable Web Application (DVWA) v' . dvwaVersionGet() . '',
 		'title_separator' => ' :: ',
 		'body'            => '',
 		'page_id'         => '',
@@ -299,7 +299,7 @@ function dvwaHtmlEcho( $pPage ) {
 
 			<div id=\"header\">
 
-				<img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/logo.png\" alt=\"Damn Vulnerable Web Application\" />
+				<img src=\"" . DVWA_WEB_PAGE_TO_ROOT . "dvwa/images/logo.png\" style=\"width: 300px;\" alt=\"ZyberLab Vulnerable Web Application\" />
 
 			</div>
 
@@ -328,7 +328,7 @@ function dvwaHtmlEcho( $pPage ) {
 
 			<div id=\"footer\">
 
-				<p>Damn Vulnerable Web Application (DVWA) v" . dvwaVersionGet() . "</p>
+				<p>ZyberLab Vulnerable Web Application (DVWA) v" . dvwaVersionGet() . "</p>
 				<script src='" . DVWA_WEB_PAGE_TO_ROOT . "/dvwa/js/add_event_listeners.js'></script>
 
 			</div>

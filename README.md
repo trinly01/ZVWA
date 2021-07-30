@@ -1,6 +1,6 @@
-# DAMN VULNERABLE WEB APPLICATION
+# ZyberLab VULNERABLE WEB APPLICATION
 
-Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
+ZyberLab Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goal is to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and to aid both students & teachers to learn about web application security in a controlled class room environment.
 
 The aim of DVWA is to **practice some of the most common web vulnerabilities**, with **various levels of difficulty**, with a simple straightforward interface.
 Please note, there are **both documented and undocumented vulnerabilities** with this software. This is intentional. You are encouraged to try and discover as many issues as possible.
@@ -8,7 +8,7 @@ Please note, there are **both documented and undocumented vulnerabilities** with
 
 ## WARNING!
 
-Damn Vulnerable Web Application is damn vulnerable! **Do not upload it to your hosting provider's public html folder or any Internet facing servers**, as they will be compromised. It is recommended using a virtual machine (such as [VirtualBox](https://www.virtualbox.org/) or [VMware](https://www.vmware.com/)), which is set to NAT networking mode. Inside a guest machine, you can download and install [XAMPP](https://www.apachefriends.org/en/xampp.html) for the web server and database.
+ZyberLab Vulnerable Web Application is ZyberLab vulnerable! **Do not upload it to your hosting provider's public html folder or any Internet facing servers**, as they will be compromised. It is recommended using a virtual machine (such as [VirtualBox](https://www.virtualbox.org/) or [VMware](https://www.vmware.com/)), which is set to NAT networking mode. Inside a guest machine, you can download and install [XAMPP](https://www.apachefriends.org/en/xampp.html) for the web server and database.
 
 ### Disclaimer
 
@@ -18,20 +18,20 @@ We do not take responsibility for the way in which any one uses this application
 
 ## License
 
-This file is part of Damn Vulnerable Web Application (DVWA).
+This file is part of ZyberLab Vulnerable Web Application (DVWA).
 
-Damn Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
+ZyberLab Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Damn Vulnerable Web Application (DVWA) is distributed in the hope that it will be useful,
+ZyberLab Vulnerable Web Application (DVWA) is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Damn Vulnerable Web Application (DVWA).  If not, see <http://www.gnu.org/licenses/>.
+along with ZyberLab Vulnerable Web Application (DVWA).  If not, see <http://www.gnu.org/licenses/>.
 
 - - -
 
@@ -50,10 +50,10 @@ If you would like to contribute a translation, please submit a PR. Note though, 
 While there are various versions of DVWA around, the only supported version is the latest source from the official GitHub repository. You can either clone it from the repo:
 
 ```
-git clone https://github.com/digininja/DVWA.git
+git clone https://github.com/trinly01/ZVWA.git
 ```
 
-Or [download a ZIP of the files](https://github.com/digininja/DVWA/archive/master.zip).
+Or [download a ZIP of the files](https://github.com/trinly01/ZVWA/archive/master.zip).
 
 - - -
 
@@ -63,7 +63,7 @@ Or [download a ZIP of the files](https://github.com/digininja/DVWA/archive/maste
 
 ### Installation Videos
 
-- [Installing Damn Vulnerable Web Application (DVWA) on Windows 10](https://www.youtube.com/watch?v=cak2lQvBRAo) [12:39 minutes]
+- [Installing ZyberLab Vulnerable Web Application (DVWA) on Windows 10](https://www.youtube.com/watch?v=cak2lQvBRAo) [12:39 minutes]
 
 ### Windows + XAMPP
 
@@ -344,7 +344,7 @@ setsebool -P httpd_can_network_connect_db 1
 
 For the latest troubleshooting information please read both open and closed tickets in the git repo:
 
-<https://github.com/digininja/DVWA/issues>
+<https://github.com/trinly01/ZVWA/issues>
 
 Before submitting a ticket, please make sure you are running the latest version of the code from the repo. This is not the latest release, this is the latest code from the master branch.
 
@@ -361,6 +361,6 @@ If raising a ticket, please submit at least the following information:
 
 Homepage: <http://www.dvwa.co.uk/>
 
-Project Home: <https://github.com/digininja/DVWA>
+Project Home: <https://github.com/trinly01/ZVWA>
 
 *Created by the DVWA team*

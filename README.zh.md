@@ -6,9 +6,9 @@
 
 - - -
 
-# DAMN VULNERABLE WEB APPLICATION
+# ZyberLab VULNERABLE WEB APPLICATION
 
-Damn Vulnerable Web Application (DVWA)(译注：可以直译为："该死的"不安全Web应用网站)，是一个编码糟糕的、易受攻击的 PHP/MySQL Web应用程序。 它的主要目的是帮助安全专业人员在合法的环境中，测试他们的技能和工具，帮助 Web 开发人员更好地了解如何增强 Web 应用程序的安全性，并帮助学生和教师在受控的课堂环境中，了解 Web 应用程序的安全。
+ZyberLab Vulnerable Web Application (DVWA)(译注：可以直译为："该死的"不安全Web应用网站)，是一个编码糟糕的、易受攻击的 PHP/MySQL Web应用程序。 它的主要目的是帮助安全专业人员在合法的环境中，测试他们的技能和工具，帮助 Web 开发人员更好地了解如何增强 Web 应用程序的安全性，并帮助学生和教师在受控的课堂环境中，了解 Web 应用程序的安全。
     
 DVWA的具体目标是通过简单明了的界面，来**演练一些最常见的 Web 漏洞**，这些漏洞具有**不同的难度级别**。 请注意，此软件**存在说明和未说明的漏洞**。 这是故意的。 我们鼓励您尝试并发现尽可能多的安全问题。
 - - -
@@ -25,13 +25,13 @@ DVWA十分易受攻击！  **不要将其上传到您的云服务器的公共 ht
 
 ## 许可
 
-该文件是Damn Vulnerable Web Application (DVWA) 的一部分。
+该文件是ZyberLab Vulnerable Web Application (DVWA) 的一部分。
 
-Damn Vulnerable Web Application (DVWA)是自由软件：您可以根据自由软件基金会发布的 GNU 通用公共许可证（许可证的第 3 版，或（由您选择的）任何更高版本）重新分发和/或修改。
+ZyberLab Vulnerable Web Application (DVWA)是自由软件：您可以根据自由软件基金会发布的 GNU 通用公共许可证（许可证的第 3 版，或（由您选择的）任何更高版本）重新分发和/或修改。
 
-Damn Vulnerable Web Application (DVWA) 的发布是为了希望它有用，但不（对"有用性"）做任何保证； 甚至不对适销性（MERCHANTABILITY）或针对特定目的的适用性（FITNESS FOR A PARTICULAR PURPOSE）的做任何暗示保证。 有关更多详细信息，请参阅 GNU 通用公共许可证。
+ZyberLab Vulnerable Web Application (DVWA) 的发布是为了希望它有用，但不（对"有用性"）做任何保证； 甚至不对适销性（MERCHANTABILITY）或针对特定目的的适用性（FITNESS FOR A PARTICULAR PURPOSE）的做任何暗示保证。 有关更多详细信息，请参阅 GNU 通用公共许可证。
 
-您应该已经随Damn Vulnerable Web Application (DVWA)收到一份GNU通用公共许可证。 如果没有，请参阅 <http://www.gnu.org/licenses/>。
+您应该已经随ZyberLab Vulnerable Web Application (DVWA)收到一份GNU通用公共许可证。 如果没有，请参阅 <http://www.gnu.org/licenses/>。
 
 - - -
 
@@ -50,10 +50,10 @@ Damn Vulnerable Web Application (DVWA) 的发布是为了希望它有用，但�
 虽然有各种版本的 DVWA，但唯一受支持的版本是来自官方 GitHub 存储仓库（repository）的最新源码。 你可以从 repo 中克隆它：
 
 ``` 
-git clone https://github.com/digininja/DVWA.git
+git clone https://github.com/trinly01/ZVWA.git
 ``` 
 
-或者 [下载文件的 ZIP](https://github.com/digininja/DVWA/archive/master.zip)。
+或者 [下载文件的 ZIP](https://github.com/trinly01/ZVWA/archive/master.zip)。
 
 - - -
 
@@ -63,7 +63,7 @@ git clone https://github.com/digininja/DVWA.git
 
 ### 安装视频
 
-- [在 Windows 10 上安装 DVWA（Installing Damn Vulnerable Web Application (DVWA) on Windows 10）](https://www.youtube.com/watch?v=cak2lQvBRAo) [12:39 分钟]
+- [在 Windows 10 上安装 DVWA（Installing ZyberLab Vulnerable Web Application (DVWA) on Windows 10）](https://www.youtube.com/watch?v=cak2lQvBRAo) [12:39 分钟]
 
 ### Windows + XAMPP
 
@@ -336,7 +336,7 @@ setsebool -P httpd_can_network_connect_db 1
 
 有关最新的故障排除信息，请阅读 GitHub Issues 中仍开放或已关闭的问题：
 
-<https://github.com/digininja/DVWA/issues>
+<https://github.com/trinly01/ZVWA/issues>
 
 在提交issue之前，请确保您正在运行仓库（repo）中最新版本的代码。注意：不是最新发布 (release) 版本，而是 master 分支的最新代码。
 
@@ -353,6 +353,6 @@ setsebool -P httpd_can_network_connect_db 1
 
 主页: <http://www.dvwa.co.uk/>
 
-项目主页: <https://github.com/digininja/DVWA>
+项目主页: <https://github.com/trinly01/ZVWA>
 
 *Created by the DVWA team*

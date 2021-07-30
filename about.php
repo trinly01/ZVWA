@@ -12,16 +12,16 @@ $page[ 'page_id' ] = 'about';
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
 	<h2>About</h2>
-	<p>Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable. Its main goals are to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and aid teachers/students to teach/learn web application security in a class room environment</p>
+	<p>ZyberLab Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is ZyberLab vulnerable. Its main goals are to be an aid for security professionals to test their skills and tools in a legal environment, help web developers better understand the processes of securing web applications and aid teachers/students to teach/learn web application security in a class room environment</p>
 	<p>Pre-August 2020, All material is copyright 2008-2015 RandomStorm & Ryan Dewhurst.</p>
 	<p>Ongoing, All material is copyright Robin Wood and probably Ryan Dewhurst.</p>
 
 	<h2>Links</h2>
 	<ul>
 		<li>Homepage: " . dvwaExternalLinkUrlGet( 'http://www.dvwa.co.uk/' ) . "</li>
-		<li>Project Home: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA' ) . "</li>
-		<li>Bug Tracker: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/issues' ) . "</li>
-		<li>Wiki: " . dvwaExternalLinkUrlGet( 'https://github.com/digininja/DVWA/wiki' ) . "</li>
+		<li>Project Home: " . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA' ) . "</li>
+		<li>Bug Tracker: " . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA/issues' ) . "</li>
+		<li>Wiki: " . dvwaExternalLinkUrlGet( 'https://github.com/trinly01/ZVWA/wiki' ) . "</li>
 	</ul>
 
 	<h2>Credits</h2>
@@ -44,7 +44,7 @@ $page[ 'body' ] .= "
 	</ul>
 
 	<h2>License</h2>
-	<p>Damn Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
+	<p>ZyberLab Vulnerable Web Application (DVWA) is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
 	(at your option) any later version.</p>
